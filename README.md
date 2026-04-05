@@ -35,4 +35,4 @@ This was due to old stock being sold.
 
 This correction reduced unsold capital from ~$9.5M to ~$2.7M
 
-## for more information contact via [Linkedin](www.linkedin.com/in/eishutamori)
+## for more information contact via [Linkedin](https://www.linkedin.com/in/eishutamori/)
