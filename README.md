@@ -1,46 +1,38 @@
-# vendors_performance_analysis
-
-End-to-end data analysis project using Python, SQL, and Power BI to evaluate vendor performance, optimize inventory, and drive business insights.
-
-**Note: Data files were not uploaded as they were wery large in size for github.**
+# Vendor Performance Analysis
 
 This project analyzes vendor performance, profitability, and inventory efficiency using Python, SQL, and Power BI.
 
-**Objectives:**
+---
 
--Identify top and low-performing vendors
+## Project Overview
 
--Analyze sales and profit trends
+The goal of this project is to identify:
+- Top and low-performing vendors  
+- Profitability trends  
+- Inventory inefficiencies  
+- High-margin low-sales opportunities  
 
--Detect unsold inventory and capital lock
+---
 
--Find high-margin low-sales brands
+## Project Workflow
 
-**Tools Used:**
+1. Data Ingestion (CSV → SQLite)
+2. Data Cleaning & Transformation
+3. Exploratory Data Analysis (EDA)
+4. Business Insights Generation
+5. Dashboard Creation (Power BI)
 
--Python (Pandas, NumPy)
+---
+## Key Business Problem Solved
 
--SQL (SQLite)
+While calculating unsold inventory, negative values appeared because sales were higher than purchases.
 
--Power BI
+This was due to old stock being sold.
 
--Matplotlib / Seaborn
+### Solution:
+- Negative unsold values were set to 0
+- This ensured accurate inventory valuation
 
-**Key Insights:**
+This correction reduced unsold capital from ~$9.5M to ~$2.7M
 
--Initially $9.5M was shown as unsold inventory
-
--After fixing calculation, actual unsold capital is ~$2.7M
-
--Some vendors contribute heavily to unsold inventory
-
--High-margin low-sales brands identified for promotion
-
--Freight cost shows large variation
-
-**Important Learning:**
-
--Sales were sometimes higher than purchases due to old stock.
-
--To fix this, negative unsold inventory values were set to 0.
-
+## for more information contact via [Linkedin](www.linkedin.com/in/eishutamori)
